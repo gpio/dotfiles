@@ -1,0 +1,83 @@
+[manager]
+ratio          = [1, 3, 4]
+sort_by        = "natural"
+sort_sensitive = false
+sort_reverse   = false
+sort_dir_first = true
+show_hidden    = false
+show_symlink   = true
+
+[preview]
+tab_size   = 2
+max_width  = 1920
+max_height = 1080
+cache_dir  = "~/.cache/yazi"
+
+[opener]
+edit = [
+  { run = 'vim "$@"', block = true },
+]
+code = [
+  { run = 'code "$@"', orphan = true },
+]
+image = [
+  { run = 'loupe "$@"', orphan = true },
+]
+video = [
+  { run = 'mpv "$@"', orphan = true },
+]
+audio = [
+  { run = 'mpv "$@"', orphan = true },
+]
+pdf = [
+  { run = 'evince "$@"', orphan = true },
+]
+office = [
+  { run = 'libreoffice "$@"', orphan = true },
+]
+web = [
+  { run = 'firefox "$@"', orphan = true },
+]
+archive = [
+  { run = 'file-roller "$@"', orphan = true },
+]
+
+[open]
+rules = [
+  # Code
+  { mime = "text/x-*",                use = ["code", "edit"] },
+  { mime = "application/javascript",  use = ["code", "edit"] },
+  { mime = "application/typescript",  use = ["code", "edit"] },
+  { mime = "application/json",        use = ["code", "edit"] },
+
+  # Texte
+  { mime = "text/*", use = ["edit"] },
+
+  # Images
+  { mime = "image/*", use = ["image"] },
+
+  # Vidéo
+  { mime = "video/*", use = ["video"] },
+
+  # Audio
+  { mime = "audio/*", use = ["audio"] },
+
+  # PDF
+  { mime = "application/pdf", use = ["pdf"] },
+
+  # Office
+  { mime = "application/vnd.oasis.*",              use = ["office"] },
+  { mime = "application/vnd.openxmlformats*",      use = ["office"] },
+  { mime = "application/msword",                   use = ["office"] },
+  { mime = "application/vnd.ms-*",                 use = ["office"] },
+
+  # Archives
+  { mime = "application/zip",     use = ["archive"] },
+  { mime = "application/x-tar",  use = ["archive"] },
+  { mime = "application/x-rar",  use = ["archive"] },
+  { mime = "application/x-7z-compressed", use = ["archive"] },
+  { mime = "application/gzip",   use = ["archive"] },
+
+  # Web
+  { mime = "text/html", use = ["web", "edit"] },
+]
