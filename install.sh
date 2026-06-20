@@ -26,12 +26,25 @@ ln -sf "$DOTFILES/zsh/.zshrc"              ~/.zshrc
 ln -sf "$DOTFILES/vim/.vimrc"              ~/.vimrc
 ln -sf "$DOTFILES/tmux/.tmux.conf"         ~/.tmux.conf
 
-mkdir -p ~/.config/kitty ~/.config/yazi ~/.tmux/plugins/tmux-which-key
+mkdir -p ~/.config/kitty ~/.config/yazi ~/.tmux/plugins/tmux-which-key \
+         ~/.config/hypr/scripts ~/.config/hypr/shortcuts
 
 ln -sf "$DOTFILES/kitty/kitty.conf"        ~/.config/kitty/kitty.conf
 ln -sf "$DOTFILES/yazi/yazi.toml"          ~/.config/yazi/yazi.toml
 ln -sf "$DOTFILES/yazi/theme.toml"         ~/.config/yazi/theme.toml
 ln -sf "$DOTFILES/tmux/which-key/config.yaml" ~/.tmux/plugins/tmux-which-key/config.yaml
+
+# Hyprland
+ln -sf "$DOTFILES/hypr/hyprland.conf"      ~/.config/hypr/hyprland.conf
+ln -sf "$DOTFILES/hypr/hyprpaper.conf"     ~/.config/hypr/hyprpaper.conf
+ln -sf "$DOTFILES/hypr/hypridle.conf"      ~/.config/hypr/hypridle.conf
+ln -sf "$DOTFILES/hypr/hyprlock.conf"      ~/.config/hypr/hyprlock.conf
+for script in "$DOTFILES"/hypr/scripts/*.sh; do
+    ln -sf "$script" ~/.config/hypr/scripts/"$(basename "$script")"
+done
+for shortcut in "$DOTFILES"/hypr/shortcuts/*.txt; do
+    ln -sf "$shortcut" ~/.config/hypr/shortcuts/"$(basename "$shortcut")"
+done
 
 # Nvim
 if [ -d ~/.config/nvim ] && [ ! -L ~/.config/nvim ]; then
