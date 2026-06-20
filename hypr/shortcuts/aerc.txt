@@ -1,0 +1,83 @@
+# aerc — Global
+Ctrl + p / Ctrl + n      Onglet précédent / suivant
+[ + t / ] + t            Onglet précédent / suivant
+Ctrl + t                 Nouveau terminal
+Ctrl + c / Ctrl + q      Quitter (confirmation)
+Ctrl + z                 Suspendre
+?                        Aide raccourcis
+
+# aerc — Liste des messages
+j / k / flèches          Message suivant / précédent
+Ctrl + d / Ctrl + f      Descendre 50% / 100%
+Ctrl + u / Ctrl + b      Monter 50% / 100%
+g / G                    Premier / Dernier message
+Entrée                   Ouvrir message
+q                        Quitter
+
+# aerc — Dossiers
+J / Ctrl + Bas           Dossier suivant
+K / Ctrl + Haut          Dossier précédent
+H / Ctrl + Gauche        Réduire dossier
+L / Ctrl + Droite        Développer dossier
+c                        Changer de dossier
+
+# aerc — Sélection
+v / Espace               Marquer message (toggle)
+V                        Marquer tous les visibles
+A                        Inverser sélection et archiver
+
+# aerc — Threads
+T                        Toggle threads
+z + c / z + o            Replier / Déplier thread
+z + a                    Toggle repli thread
+z + M / z + R            Replier / Déplier tout
+
+# aerc — Actions sur messages
+d                        Supprimer (confirmation)
+D                        Supprimer sans confirmation
+a                        Archiver
+C / m                    Composer nouveau message
+r + r                    Répondre à tous
+r + q                    Répondre à tous avec citation
+R + r                    Répondre à l'expéditeur
+R + q                    Répondre à l'expéditeur avec citation
+b                        Faire suivre (bounce)
+
+# aerc — Recherche
+/                        Rechercher
+\                        Filtrer
+n / N                    Résultat suivant / précédent
+Escape                   Effacer recherche
+
+# aerc — Divers
+s / S                    Split horizontal / vertical
+| (pipe)                 Pipe vers commande
+! / $                    Lancer commande shell
+
+# aerc — Vue message
+q                        Fermer
+O / o                    Ouvrir pièce jointe
+S                        Sauvegarder pièce jointe
+H                        Toggle headers
+f                        Faire suivre
+Ctrl + k / Ctrl + j      Partie précédente / suivante
+J / K                    Message suivant / précédent
+Ctrl + y                 Copier lien
+Ctrl + l                 Ouvrir lien
+
+# aerc — Composition (review)
+y                        Envoyer
+n                        Abandonner
+s                        Signer
+x                        Chiffrer
+v                        Prévisualiser
+p                        Postponer
+e                        Éditer
+a                        Ajouter pièce jointe
+d                        Retirer pièce jointe
+
+# aerc — Composition (champs)
+Ctrl + j / Ctrl + k      Champ suivant / précédent
+Tab / Shift + Tab        Champ suivant / précédent
+Ctrl + o                 Autocomplétion
+Alt + n / Alt + p        Compte suivant / précédent

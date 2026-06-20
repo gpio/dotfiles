@@ -1,0 +1,86 @@
+# Blender — Navigation
+Molette                 Zoom
+Clic molette            Orbiter
+Shift + clic molette    Panoramique
+Numpad 1/3/7            Vue face / côté / dessus
+Numpad 4/6/8/2          Orbiter par pas
+Numpad 5                Perspective / Orthographique
+Numpad 0                Vue caméra
+Numpad .                Cadrer la sélection
+Home                    Tout afficher
+/ (Numpad)              Isoler l'objet
+
+# Blender — Sélection
+Clic gauche             Sélectionner
+Shift + clic            Ajouter à la sélection
+A                       Tout sélectionner / désélectionner
+Alt + A                 Désélectionner tout
+B                       Sélection rectangle
+C                       Sélection cercle
+Ctrl + I                Inverser la sélection
+Alt + clic              Sélectionner boucle (edge loop)
+Ctrl + clic             Sélectionner chemin
+
+# Blender — Transforms
+G                       Déplacer
+R                       Rotation
+S                       Échelle
+G/R/S + X/Y/Z           Contraindre à un axe
+G/R/S + Shift + X/Y/Z   Contraindre au plan perpendiculaire
+G/R/S + chiffre         Valeur précise (ex: S 2 = ×2)
+Alt + G/R/S             Réinitialiser position / rotation / échelle
+Ctrl + A                Appliquer transforms
+
+# Blender — Object Mode
+Tab                     Basculer Edit / Object Mode
+Ctrl + Tab              Mode pie menu
+Shift + A               Ajouter objet
+X / Delete              Supprimer
+Shift + D               Dupliquer
+Alt + D                 Dupliquer lié
+Ctrl + J                Joindre objets
+P                       Séparer la sélection
+M                       Déplacer vers collection
+H / Alt + H             Cacher / Afficher tout
+Shift + H               Cacher non sélectionnés
+Ctrl + L                Sélectionner objets liés
+Numpad Entrée           Vue de dessous
+
+# Blender — Edit Mode
+E                       Extruder
+Alt + E                 Extruder (menu)
+I                       Inset face
+Ctrl + R                Loop cut (molette = nombre)
+K                       Couteau (Knife)
+J                       Connecter les vertices
+F                       Créer face / arête
+Ctrl + F                Menu faces
+Ctrl + E                Menu arêtes
+Ctrl + V                Menu vertices
+M                       Fusionner vertices
+Alt + M                 Menu fusion
+W                       Menu spécial (selon contexte)
+O                       Mode proportionnel (molette = rayon)
+Shift + N               Recalculer les normales
+Ctrl + N                Recalculer normales vers l'extérieur
+G + G                   Glisser sur l'arête (Edge Slide)
+Ctrl + B                Biseau (Bevel) sur arêtes
+Ctrl + Shift + B        Biseau sur vertices
+1 / 2 / 3              Mode vertices / arêtes / faces
+Shift + 1/2/3           Combinaison de modes
+
+# Blender — Rendu & Shader
+F12                     Lancer le rendu
+Ctrl + F12              Rendu animation
+F11                     Afficher dernier rendu
+Ctrl + S                Sauvegarder
+Ctrl + Shift + S        Sauvegarder sous
+Z                       Pie menu shading (solid/wireframe/material/rendered)
+
+# Blender — Timeline & Animation
+Space                   Play / Pause
+Shift + ←/→             Premier / Dernier frame
+←/→                     Frame précédente / suivante
+I                       Insérer keyframe
+Alt + I                 Supprimer keyframe
+Ctrl + Z / Shift + Ctrl + Z  Annuler / Rétablir

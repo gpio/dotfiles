@@ -1,0 +1,51 @@
+# Tmux — Fenêtres (préfixe: Ctrl+A)
+Ctrl + A + c              Nouvelle fenêtre
+Ctrl + A + Tab            Fenêtre suivante
+Ctrl + A + n / p          Fenêtre suivante / précédente
+Ctrl + A + w              Liste des fenêtres (arbre)
+Ctrl + A + ,              Renommer fenêtre
+Ctrl + A + &              Fermer fenêtre (confirmation)
+Ctrl + A + 0-9            Aller à la fenêtre N
+
+# Tmux — Panes
+Ctrl + A + !              Split vertical (pane à droite)
+Ctrl + A + :              Split horizontal (pane en bas)
+Ctrl + A + h/j/k/l        Naviguer entre panes
+Ctrl + flèches            Naviguer entre panes (sans préfixe)
+Ctrl + A + flèches        Naviguer entre panes
+Ctrl + A + H/J/K/L        Redimensionner pane (répétable)
+Ctrl + A + Alt + flèches  Redimensionner pane par 5
+Ctrl + A + z              Zoom pane actif
+Ctrl + A + x              Fermer pane (confirmation)
+Ctrl + A + o              Pane suivant
+Ctrl + A + ;              Dernier pane actif
+Ctrl + A + q              Afficher numéros des panes
+Ctrl + A + m              Marquer pane
+Ctrl + A + { / }          Swap pane haut / bas
+Ctrl + A + E              Égaliser les panes
+
+# Tmux — Sessions
+Ctrl + A + d              Détacher session
+Ctrl + A + s              Liste des sessions (arbre)
+Ctrl + A + Shift + Tab    Session suivante
+Ctrl + A + ( / )          Session précédente / suivante
+Ctrl + A + $              Renommer session
+Ctrl + A + D              Choisir client à détacher
+
+# Tmux — Copie (mode vi)
+Ctrl + A + v              Entrer en mode copie
+Ctrl + A + [              Entrer en mode copie (défaut)
+Ctrl + A + ]              Coller
+v                         Début sélection (en mode copie)
+y                         Copier sélection → wl-copy
+Ctrl + A + =              Choisir buffer à coller
+Ctrl + A + #              Liste des buffers
+
+# Tmux — Plugins & Divers
+Ctrl + A + r              Recharger config
+Ctrl + A + Ctrl + S       Sauvegarder session (resurrect)
+Ctrl + A + Ctrl + R       Restaurer session (resurrect)
+Ctrl + A + I              Installer plugins (TPM)
+Ctrl + A + U              Mettre à jour plugins (TPM)
+Ctrl + A + ?              Aide / liste des raccourcis
+Ctrl + A + t              Horloge

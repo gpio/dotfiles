@@ -1,0 +1,49 @@
+# Hyprland — Apps
+Super + Entrée            Terminal (kitty)
+Super (relâcher)          Launcher (fuzzel)
+Super + Space             Raccourcis clavier
+Super + Tab               Vue des bureaux
+Super + E                 Explorateur (nautilus)
+Super + L                 Verrouiller (hyprlock)
+
+# Hyprland — Fenêtres
+Super + C / Alt + F4      Fermer fenêtre
+Super + Shift + K         Tuer fenêtre (clic)
+Super + V                 Flottant toggle
+Super + F                 Plein écran
+Super + D                 Basculer thème clair/sombre
+Alt + Tab                 Fenêtre suivante (hyprswitch)
+Alt + Shift + Tab         Fenêtre précédente
+Super + flèches           Focus gauche/bas/haut/droite
+Super + Shift + flèches   Déplacer fenêtre
+Super + clic gauche       Déplacer fenêtre (souris)
+Super + clic droit        Redimensionner (souris)
+
+# Hyprland — Resize (mode)
+Super + R                 Entrer en mode resize
+h/j/k/l / flèches        Redimensionner (en mode resize)
+Escape / Entrée           Quitter mode resize
+
+# Hyprland — Workspaces
+Super + & é " ' ( - è _ ç à    Bureaux 1-10 (AZERTY)
+Ctrl + Alt + flèches      Bureau précédent / suivant
+Super + Shift + & é " ' ( - è _ ç à  Déplacer fenêtre → bureau
+
+# Hyprland — Scratchpads
+² (touche seule)          Terminal scratch
+Super + $                 KeePass scratch
+
+# Hyprland — Système
+Ctrl + Alt + Suppr        Redémarrer
+Ctrl + Alt + Inser        Suspendre
+Ctrl + Alt + Fin          Éteindre
+Ctrl + Alt + Début        Hiberner
+Super + Shift + E         Quitter Hyprland
+Super + Shift + R         Recharger config
+
+# Hyprland — Médias
+XF86AudioRaiseVolume      Volume +5%
+XF86AudioLowerVolume      Volume -5%
+XF86AudioMute             Mute toggle
+XF86MonBrightnessUp       Luminosité +5%
+XF86MonBrightnessDown     Luminosité -5%

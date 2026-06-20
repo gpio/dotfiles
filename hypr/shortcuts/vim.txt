@@ -1,0 +1,30 @@
+# Vim
+i / a / o / O           Insérer avant / après / dessous / dessus
+Escape                  Mode normal
+:w / :q / :wq / :q!     Sauvegarder / Quitter / Les deux / Forcer quitter
+u / Ctrl + R            Annuler / Rétablir
+. (point)               Répéter dernière action
+gg / G                  Début / Fin du fichier
+{ / }                   Paragraphe précédent / suivant
+0 / ^ / $               Début ligne / Premier char / Fin ligne
+w / b / e               Mot suivant / précédent / fin de mot
+dd / D                  Supprimer ligne / jusqu'à la fin
+yy / p / P              Copier ligne / Coller après / avant
+x / r                   Supprimer caractère / Remplacer
+ci" / ci(               Changer contenu entre guillemets / parenthèses
+di" / di(               Supprimer contenu entre guillemets / parenthèses
+v / V / Ctrl + V        Sélection char / ligne / bloc
+> / <                   Indenter / Désindenter la sélection
+= / ==                  Auto-indenter sélection / ligne
+/ puis n / N            Rechercher / Suivant / Précédent
+:s/old/new/g            Remplacer dans la ligne
+:%s/old/new/g           Remplacer dans le fichier
+:sp / :vsp              Split horizontal / vertical
+Ctrl + W + hjkl         Naviguer entre splits
+Ctrl + W + = / _ / |    Égaliser / Agrandir splits
+:e fichier              Ouvrir fichier
+:b / :bn / :bp          Buffer / Suivant / Précédent
+:ls                     Lister les buffers
+m + lettre / ' + lettre Poser marque / Aller à la marque
+q + lettre              Enregistrer macro
+@ + lettre              Rejouer macro

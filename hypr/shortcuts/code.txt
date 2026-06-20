@@ -1,0 +1,37 @@
+# VS Code
+Ctrl + P                Ouvrir fichier rapidement
+Ctrl + Shift + P        Palette de commandes
+Ctrl + Shift + E        Explorateur de fichiers
+Ctrl + Shift + F        Recherche globale
+Ctrl + Shift + G        Source Control
+Ctrl + Shift + X        Extensions
+Ctrl + Shift + D        Débogage
+Ctrl + `                Terminal intégré
+Ctrl + B                Afficher / masquer sidebar
+Ctrl + N                Nouveau fichier
+Ctrl + S                Sauvegarder
+Ctrl + Shift + S        Sauvegarder sous
+Ctrl + Z / Ctrl + Y     Annuler / Rétablir
+Ctrl + F                Rechercher
+Ctrl + H                Rechercher et remplacer
+Ctrl + G                Aller à la ligne
+Ctrl + D                Sélectionner occurrence suivante
+Ctrl + Shift + L        Sélectionner toutes les occurrences
+Alt + ↑/↓               Déplacer ligne
+Shift + Alt + ↑/↓       Dupliquer ligne
+Ctrl + /                Commenter / décommenter
+Ctrl + Shift + K        Supprimer ligne
+Ctrl + Enter            Insérer ligne dessous
+Ctrl + Shift + Enter    Insérer ligne dessus
+Alt + clic              Multi-curseurs
+Ctrl + Alt + ↑/↓        Ajouter curseur dessus / dessous
+F12                     Aller à la définition
+Shift + F12             Afficher les références
+F2                      Renommer symbole
+Ctrl + Shift + M        Panneau problèmes
+F8                      Erreur suivante
+Ctrl + \                Split éditeur
+Ctrl + 1/2/3            Focus groupe éditeur
+Ctrl + Tab              Naviguer entre onglets
+Ctrl + W                Fermer onglet
+Ctrl + K Z              Mode Zen

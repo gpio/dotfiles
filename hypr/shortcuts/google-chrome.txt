@@ -1,0 +1,28 @@
+# Google Chrome
+Ctrl + T                Nouvel onglet
+Ctrl + W                Fermer onglet
+Ctrl + Shift + T        Rouvrir onglet fermé
+Ctrl + Tab              Onglet suivant
+Ctrl + Shift + Tab      Onglet précédent
+Ctrl + 1-9              Aller à l'onglet N
+Ctrl + L                Barre d'adresse
+Ctrl + K                Rechercher
+Ctrl + R / F5           Recharger
+Ctrl + Shift + R        Recharger sans cache
+Ctrl + F                Rechercher dans la page
+Ctrl + D                Ajouter aux favoris
+Ctrl + Shift + B        Afficher / masquer barre favoris
+Ctrl + H                Historique
+Ctrl + J                Téléchargements
+Ctrl + Shift + I        Outils développeur
+Ctrl + Shift + J        Console développeur
+Ctrl + U                Code source
+Ctrl + Shift + N        Fenêtre privée
+Ctrl + N                Nouvelle fenêtre
+Alt + ← / →             Précédent / Suivant
+Ctrl + +/-              Zoom avant / arrière
+Ctrl + 0                Zoom par défaut
+F11                     Plein écran
+Ctrl + Shift + Delete   Effacer données navigation
+Ctrl + P                Imprimer / Enregistrer PDF
+Ctrl + S                Enregistrer la page

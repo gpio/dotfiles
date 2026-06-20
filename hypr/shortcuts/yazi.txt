@@ -1,0 +1,56 @@
+# Yazi — Navigation
+h / j / k / l           Parent / Bas / Haut / Entrer dossier
+Entrée                   Entrer dossier / Ouvrir fichier
+Backspace / H            Répertoire parent
+g + g / G               Premier / Dernier fichier
+~ / \                    Répertoire home / racine
+z + z                    Changer de dossier (zoxide)
+z + a                    Chercher dans l'historique
+
+# Yazi — Sélection
+Espace                   Sélectionner / désélectionner
+v                        Mode sélection visuelle
+V                        Inverser la sélection
+Escape                   Annuler sélection / quitter mode
+
+# Yazi — Opérations fichiers
+o                        Ouvrir avec app par défaut
+O                        Ouvrir avec… (choisir app)
+y                        Copier (yank)
+x                        Couper (yank cut)
+p                        Coller
+P                        Coller (écraser)
+d                        Supprimer (corbeille)
+D                        Supprimer définitivement
+a                        Créer fichier / dossier (/ pour dossier)
+r                        Renommer
+R                        Renommer en masse (éditeur)
+;                        Lancer commande shell
+:                        Lancer commande shell (reste dans dir)
+.                        Copier chemin fichier
+c + c                    Copier nom fichier
+c + p                    Copier chemin absolu
+c + d                    Copier chemin du dossier
+
+# Yazi — Recherche & filtre
+/                        Rechercher (fuzzy)
+n / N                    Résultat suivant / précédent
+f                        Filtrer fichiers
+s                        Trier (menu)
+.                        Toggle fichiers cachés
+
+# Yazi — Onglets
+t                        Nouvel onglet
+[ / ]                    Onglet précédent / suivant
+{ / }                    Déplacer onglet gauche / droite
+w                        Fermer onglet
+1-9                      Aller à l'onglet N
+
+# Yazi — Prévisualisation
+Tab                      Toggle prévisualisation
+i                        Inspecter fichier (plein écran)
+
+# Yazi — Divers
+q                        Quitter
+Q                        Quitter (changer répertoire shell)
+F1 / ?                   Aide

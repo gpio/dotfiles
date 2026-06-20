@@ -1,0 +1,110 @@
+# LazyVim — Navigation de base
+h / j / k / l           Gauche / Bas / Haut / Droite
+w / b / e               Mot suivant / précédent / fin
+gg / G                  Début / Fin du fichier
+0 / ^ / $               Début ligne / Premier char / Fin ligne
+{ / }                   Paragraphe précédent / suivant
+Ctrl + F / B            Scroll avant / arrière
+H / L                   Buffer précédent / suivant
+s                       Flash (saut rapide)
+S                       Flash Treesitter
+%                       Aller au bracket correspondant
+
+# LazyVim — Modes
+i / a / o / O           Insérer avant / après / dessous / dessus
+v / V / Ctrl + V        Sélection char / ligne / bloc
+Ctrl + Space            Sélection Treesitter incrémentale
+Escape                  Mode normal
+
+# LazyVim — Édition
+u / Ctrl + R            Annuler / Rétablir
+dd / yy / p             Supprimer / Copier ligne / Coller
+Y                       Copier jusqu'à la fin de ligne
+gcc                     Commenter / décommenter ligne
+gc                      Commenter la sélection
+> / <                   Indenter / Désindenter
+. (point)               Répéter dernière action
+ci" / di"               Changer / Supprimer dans guillemets
+ci( / di(               Changer / Supprimer dans parenthèses
+
+# LazyVim — Fichiers (Leader = Espace)
+Espace + Espace         Chercher fichier (root)
+Espace + f + f          Chercher fichier (root)
+Espace + f + F          Chercher fichier (cwd)
+Espace + f + r          Fichiers récents
+Espace + f + R          Fichiers récents (cwd)
+Espace + f + p          Projets
+Espace + f + c          Fichier config
+Espace + e              Explorateur (root)
+Espace + E              Explorateur (cwd)
+
+# LazyVim — Buffers
+Espace + b + b          Liste des buffers
+Espace + b + p          Épingler buffer
+Espace + b + P          Supprimer buffers non épinglés
+Espace + b + r          Supprimer buffers à droite
+Espace + b + l          Supprimer buffers à gauche
+Espace + b + j          Choisir buffer
+[ + b / ] + b           Buffer précédent / suivant
+[ + B / ] + B           Déplacer buffer gauche / droite
+
+# LazyVim — Recherche
+Espace + /              Grep (root)
+Espace + s + g          Grep (root)
+Espace + s + G          Grep (cwd)
+Espace + s + w          Chercher mot sous curseur
+Espace + s + r          Rechercher et remplacer
+Espace + s + b          Lignes du buffer
+Espace + s + h          Pages d'aide
+Espace + s + k          Keymaps
+Espace + s + m          Marques
+Espace + s + d          Diagnostics
+Espace + s + j          Jumps
+Espace + s + R          Reprendre dernière recherche
+Espace + ?              Keymaps du buffer (which-key)
+
+# LazyVim — Git
+Espace + g + s          Git Status
+Espace + g + d          Git Diff (hunks)
+Espace + g + D          Git Diff (origin)
+Espace + g + S          Git Stash
+
+# LazyVim — LSP / Code
+g + r + r               Références
+g + r + n               Renommer
+g + r + a               Code action
+g + r + i               Implémentation
+g + r + t               Type definition
+g + O                   Symboles du document
+Espace + c + m          Mason (gestionnaire LSP)
+K                       Documentation hover
+[ + d / ] + d           Diagnostic précédent / suivant
+
+# LazyVim — Diagnostics / Trouble
+Espace + x + x          Diagnostics (Trouble)
+Espace + x + X          Diagnostics buffer (Trouble)
+Espace + x + L          Location List (Trouble)
+Espace + x + Q          Quickfix (Trouble)
+Espace + c + s          Symboles (Trouble)
+[ + q / ] + q           Item quickfix précédent / suivant
+
+# LazyVim — TODO
+Espace + s + t          Todo
+Espace + s + T          Todo/Fix/Fixme
+[ + t / ] + t           Todo précédent / suivant
+
+# LazyVim — Sessions
+Espace + q + s          Restaurer session
+Espace + q + l          Restaurer dernière session
+Espace + q + S          Choisir session
+Espace + q + d          Ne pas sauvegarder la session
+
+# LazyVim — UI & Divers
+Espace + u + C          Colorschemes
+Espace + u + n          Fermer toutes les notifications
+Espace + n              Historique notifications
+Espace + .              Scratch buffer
+Ctrl + W + h/j/k/l      Naviguer entre splits
+Ctrl + W + d            Diagnostics sous curseur
+g + x                   Ouvrir URL/fichier sous curseur
+:w / :q / :wq / :q!     Sauvegarder / Quitter / Les deux / Forcer

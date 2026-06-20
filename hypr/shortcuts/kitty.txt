@@ -1,0 +1,12 @@
+# Kitty
+Ctrl + Shift + T        Nouvel onglet
+Ctrl + Shift + W        Fermer onglet
+Ctrl + Shift + →/←      Naviguer entre onglets
+# Note: Ctrl+flèches capturé par tmux si session active
+Ctrl + Shift + Enter    Nouveau split
+Ctrl + Shift + R        Redimensionner split
+Ctrl + Shift + C/V      Copier / Coller
+Ctrl + Shift + +/-      Agrandir / Réduire police
+Ctrl + Shift + 0        Réinitialiser police
+Ctrl + Shift + F        Rechercher
+Ctrl + Shift + U        Insérer caractère unicode

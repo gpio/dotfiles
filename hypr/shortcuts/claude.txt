@@ -1,0 +1,12 @@
+# Claude Code
+Ctrl + C                Interrompre / Annuler
+Ctrl + L                Effacer conversation
+Escape                  Annuler saisie
+↑ / ↓                   Naviguer dans l'historique
+Shift + Enter           Nouvelle ligne sans envoyer
+! commande              Exécuter commande shell
+/help                   Aide
+/clear                  Nouvelle conversation
+/config                 Paramètres
+/code-review            Revue de code
+/run                    Lancer l'application

@@ -1,0 +1,12 @@
+# Zsh
+Ctrl + R                Recherche historique
+Ctrl + A / E            Début / Fin de ligne
+Ctrl + W                Supprimer mot précédent
+Ctrl + U                Supprimer jusqu'au début
+Ctrl + L                Effacer écran
+Ctrl + Z                Suspendre process (fg pour reprendre)
+Ctrl + C                Interrompre process
+Alt + .                 Dernier argument de la commande précédente
+!!                      Répéter dernière commande
+!$                      Dernier argument
+Tab                     Autocomplétion
