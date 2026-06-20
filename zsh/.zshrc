@@ -7,6 +7,7 @@ eval "$(dircolors -b)"
 path+=('/home/fab/.local/bin' '/home/fab/bin' '/home/fab/bin/intelFPGA_lite/17.0/quartus/bin')
 
 export QUARTUS_ROOTDIR=/home/fab/bin/intelFPGA_lite/17.0/quartus
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 #historique avec sqlite
 eval "$(atuin init zsh)"
@@ -66,11 +67,15 @@ alias r='yazi'
 alias copy='kitty +kitten clipboard'
 alias paste='kitty +kitten clipboard --get-clipboard'
 
-
 alias ls='eza --icons'
 alias ll='eza -la --icons --git'
 alias lt='eza --tree --icons --level=2'
+compdef eza=ls
 alias icat='kitten icat'
-
+alias gparted='xhost si:localuser:root && sudo -E gparted'
 
 export QSYS_ROOTDIR="/home/fab/.cache/yay/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/25.1/quartus/sopc_builder/bin"
+
+eval "$(navi widget zsh)"
+eval "$(zoxide init zsh)"
+
